@@ -1,0 +1,30 @@
+{
+  "llm": {
+    "primary_provider": "ollama",
+    "ollama": {
+      "host": "http://localhost:11434",
+      "model": "mistral"
+    },
+    "openai": {
+      "api_key": "",
+      "model": "gpt-3.5-turbo"
+    }
+  },
+  "gui": {
+    "theme": "dark",
+    "window_width": 1200,
+    "window_height": 800,
+    "show_detailed_logs": true
+  },
+  "approval": {
+    "require_approval_for_code": true,
+    "require_approval_for_internet": true,
+    "require_approval_for_business_setup": true,
+    "approval_timeout_seconds": 3600
+  },
+  "agents": {
+    "enable_research_agent": true,
+    "enable_code_agent": true,
+    "enable_business_agent": true
+  }
+}
